@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    golang-container:
+        build:
+            context: .
+        image: golang-container-image:latest
+        entrypoint: echo "Built successfully"
